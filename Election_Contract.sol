@@ -4,7 +4,7 @@ pragma solidity ^0.8.2;
 
 contract Election {
     
-    // Model a Candidate
+    // Model a Candidate contains three params
 
     struct  Candidate {
         uint id;
@@ -31,7 +31,7 @@ contract Election {
     function Vote(uint _candidateId) public {
     
     // require that they haven't voted before
-    require(voters[msg.sender] == false, "User has already casted vote !!");
+    require(voters[msg.sender] == false, "Already voted !!");
 
     // require a valid candidate
     require(candidates[_candidateId].id == _candidateId);
