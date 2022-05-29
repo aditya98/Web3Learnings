@@ -1,8 +1,10 @@
 1. NFT staking contract which accrues rewards in ERC 20
 2. Creating & deploying a ERC 721 token
 
-// Creating and deploying ERC- 721 NFT Code
-// SPDX-License-Identifier: MIT
+//Creating and deploying ERC- 721 NFT Code
+
+
+//SPDX-License-Identifier: MIT
 pragma solidity 0.8.0;
 import https://github.com/0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol,
 import https://github.com/0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol,
